@@ -33,7 +33,13 @@ go install ./cmd/report-sitory/...
 Add `GOPATH/bin` to `PATH` to use the tool from any path:
 ```
 export PATH=$GOPATH/bin:$PATH
+```  
+
+Now simply call 
 ```
+report-sitory --repository *path_to_repo*
+```  
+By default the tool tries to calculate stats in current directory  
 
 ---
 ## Interface  
